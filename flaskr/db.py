@@ -3,7 +3,6 @@ import click
 from flask import current_app, g
 from flask.cli import with_appcontext
 #from flask.ext.sqlalchemy import SQLAlchemy
-from archive import app
 
 
 def init_app(app):
