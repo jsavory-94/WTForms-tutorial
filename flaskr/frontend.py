@@ -6,4 +6,4 @@ bp = Blueprint('frontend', __name__, url_prefix="/")
 
 @bp.route('/')
 def home():
-    return "Amazing Homepage"
+    return render_template('home.html')
